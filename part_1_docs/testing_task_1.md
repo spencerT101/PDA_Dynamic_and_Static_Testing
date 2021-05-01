@@ -16,13 +16,17 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-
+# Incorrect syntax in IF statement. It should be 'card.value == 1:'
   def check_for_ace(self, card):
     if card.value = 1:
       return True
     else
       return False
-   
+
+
+# The function is spelt incorrectly. It shoulde be 'DEF' not 'DIF;
+# There is a comma missing between the CARD1 and CARD2 parameters in the function.   
+# The IF RETURN statement should be card1.
 
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
@@ -31,7 +35,7 @@ class CardGame:
     return card2
   
 
-
+# total is undefined.
 def cards_total(self, cards):
   total
   for card in cards:
