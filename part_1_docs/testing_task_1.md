@@ -38,6 +38,8 @@ class CardGame:
 
 # total is undefined should be set to 'total = 0'
 # total needs to be converted into string in return statement.
+# should leave a space before the second quotation in return statement so it reads like a normal sentence.
+# return statement also needs to be outside the FOR loop or it will iterate only once.
 def cards_total(self, cards):
   total
   for card in cards:
