@@ -17,6 +17,7 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
 # Incorrect syntax in IF statement. It should be 'card.value == 1:'
+#Incorrect syntax for ELSE statement, needs a semi colon.
   def check_for_ace(self, card):
     if card.value = 1:
       return True
