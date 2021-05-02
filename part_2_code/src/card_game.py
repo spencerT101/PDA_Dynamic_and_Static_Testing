@@ -8,10 +8,10 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value == 1:
-      return True
-    else:
-      return False
+    if card.value = 1:
+       return True
+     else
+       return False
    
 
   dif highest_card(self, card1 card2):
@@ -22,8 +22,9 @@ class CardGame:
   
 
 
-# def cards_total(self, cards):
-#   total
-#   for card in cards:
-#     total += card.value
-#     return "You have a total of" + total
+  def cards_total(self, cards):
+   total
+
+   for card in cards:
+     total += card.value
+     return "You have a total of" + total
