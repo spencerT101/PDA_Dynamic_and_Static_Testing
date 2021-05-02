@@ -7,31 +7,20 @@ class TestCardGame(unittest.TestCase):
     def setUp(self):
         self.ace = Card("spades", 1)
         self.club = Card("clubs", 5)
-    
-
-    def test_check_for_ace(self):
-        self.assertEqual(True, self.ace.value)
-    
-    # def test_check_for_ace_false(self):
-    #     self.assertEqual(False, self.club.value)
-
-    def test_highest_card1(self):
-        card1 = self.club.value
-        card2 = self.ace.value
-        self.assertEqual(card1, self.club.value)
-    
-    def test_highest_card2(self):
-        card1 = self.ace.value
-        card2 = self.club.value
-        self.assertEqual(card2, self.club.value)
-
-    def test_cards_total(self):
-        cards = self.ace.value
-        self.assertEqual(, cards)
-
-
+        self.card_game1 = CardGame()
+      
 
     
-
+    def test_check_for_ace_true(self):
+        self.assertEqual(True, self.card_game1.check_for_ace(self.ace))
+    
+    def test_check_for_ace_false(self):
+        self.assertEqual(False, self.card_game1.check_for_ace(self.club))
+    
+    def test_highest_card(self):
+        card1 = self.ace
+        card2 = self.club
+        highest_card = self.card_game1.highest_card(card1, card2)
+        self.assertEqual(card2, highest_card)
     
 
