@@ -9,8 +9,8 @@ class TestCardGame(unittest.TestCase):
         self.club = Card(clubs, 5)
     
 
-    def card_value_equals_1 (self):
-        self.assertEqual(1, self.ace.value)
+    def test_check_for_ace(self):
+        self.assertEqual(True, self.ace.value)
     
 
     
