@@ -36,7 +36,8 @@ class CardGame:
     return card2
   
 
-# total is undefined.
+# total is undefined should be set to 'total = 0'
+# total needs to be converted into string in return statement.
 def cards_total(self, cards):
   total
   for card in cards:
