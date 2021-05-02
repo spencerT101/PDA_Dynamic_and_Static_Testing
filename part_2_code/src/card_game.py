@@ -22,9 +22,9 @@ class CardGame:
   
 
 
-  # def cards_total(self, cards):
-  #  total
+  def cards_total(self, cards):
+    total
 
-  #  for card in cards:
-  #    total += card.value
-  #    return "You have a total of" + total
+    for card in cards:
+      total += card.value
+      return "You have a total of" + total
